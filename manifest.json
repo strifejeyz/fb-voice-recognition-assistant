@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Facebook AI Assistant",
+    "description": "A dumbass voice recognition made in one day.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
